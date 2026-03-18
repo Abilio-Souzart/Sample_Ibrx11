@@ -23,7 +23,7 @@ pd.set_option("display.width", 180)
 # -----------------------------
 # Paths / Pastas do projeto
 # -----------------------------
-PROJECT_DIR = Path(__file__).resolve().parent
+PROJECT_DIR = Path(__file__).resolve().parent.parent
 DATA_FILE = PROJECT_DIR / "data" / "cotacoes_ibrx11.xlsx"
 CHARTS_DIR = PROJECT_DIR / "charts"
 CHARTS_DIR.mkdir(parents=True, exist_ok=True)
