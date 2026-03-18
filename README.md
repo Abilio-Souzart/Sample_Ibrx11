@@ -6,7 +6,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6300840
 
 ---
 
-## 📖 About the Project
+## About the Project
 
 This project provides the original implementation of the analyses and statistical tests presented in the paper.
 
@@ -33,12 +33,18 @@ This repository contains the sample analysis used in the study.
 
 ## Project Structure
 
+```
 Sample_Ibrx11/
-
-* analise.py → main analysis script
-* charts/ → generated charts
-* cotacoes_ibrx11.xlsx → dataset
-* requirements.txt → dependencies
+│
+├── src/
+│   └── analise.py                  # Main analysis script
+├── data/
+│   └── cotacoes_ibrx11.xlsx        # Dataset used in the analysis
+├── charts/                         # Generated charts
+├── requirements.txt                # Dependencies
+├── README.md                       # Documentation
+└── .gitignore                      # Ignored files
+```
 
 ---
 
@@ -61,6 +67,6 @@ Abilio Souzart
 
 ---
 
-## Reference
+## 📄 Reference
 
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6300840
